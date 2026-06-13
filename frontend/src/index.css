@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { background: #000; color: #fff; font-family: 'DM Sans', sans-serif; }
+}
+
+@layer components {
+  /* Frontend */
+  .btn-gold { @apply bg-gold text-black font-medium px-6 py-3 text-sm tracking-wide hover:bg-yellow-500 transition-colors duration-200 cursor-pointer; }
+  .btn-outline { @apply border border-gray-600 text-white px-6 py-3 text-sm tracking-wide hover:border-gold hover:text-gold transition-colors duration-200 cursor-pointer; }
+  .section-label { @apply text-gold text-xs tracking-widest uppercase mb-1; }
+  .section-title { @apply font-bebas text-4xl tracking-wide mb-6; }
+  .card { @apply bg-gray-900 border border-gray-800 hover:border-gold transition-colors duration-200; }
+  .input-field { @apply w-full bg-gray-900 border border-gray-700 text-white px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors; }
+
+  /* Admin shared */
+  .input { @apply w-full bg-gray-900 border border-gray-700 text-white px-3 py-2 text-sm focus:outline-none focus:border-gold transition-colors; }
+  .select { @apply w-full bg-gray-900 border border-gray-700 text-white px-3 py-2 text-sm focus:outline-none focus:border-gold transition-colors; }
+  .btn { @apply px-4 py-2 text-sm font-medium transition-colors duration-150 cursor-pointer; }
+  .btn-ghost { @apply px-4 py-2 text-sm font-medium text-gray-400 hover:text-white hover:bg-gray-800 transition-colors duration-150 cursor-pointer; }
+  .btn-danger { @apply px-4 py-2 text-sm font-medium bg-red-600 text-white hover:bg-red-700 transition-colors duration-150 cursor-pointer; }
+
+  /* Admin booking status badges */
+  .badge-pending { @apply bg-yellow-900/40 text-yellow-400 text-xs px-2 py-0.5; }
+  .badge-confirmed { @apply bg-blue-900/40 text-blue-400 text-xs px-2 py-0.5; }
+  .badge-in_progress { @apply bg-purple-900/40 text-purple-400 text-xs px-2 py-0.5; }
+  .badge-completed { @apply bg-green-900/40 text-green-400 text-xs px-2 py-0.5; }
+  .badge-cancelled { @apply bg-red-900/40 text-red-400 text-xs px-2 py-0.5; }
+}
