@@ -107,7 +107,7 @@ export default function ProductDetail() {
             </div>
 
             <div className="mt-8 pt-8 border-t border-gray-800 grid grid-cols-3 gap-4 text-center">
-              {[['✅','Genuine Product'],['🚚','Mombasa Delivery'],['🔧','After-Sales Support']].map(([icon, label]) => (
+              {[['✅','Genuine Product'],['🚚','Kilifi Delivery'],['🔧','After-Sales Support']].map(([icon, label]) => (
                 <div key={label}>
                   <div className="text-xl mb-1">{icon}</div>
                   <div className="text-xs text-gray-400">{label}</div>
