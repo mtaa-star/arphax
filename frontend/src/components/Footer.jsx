@@ -66,8 +66,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-600 text-xs">© 2025 ArphaxTech. All rights reserved.</p>
-          <p className="text-gray-600 text-xs">Built with care in Mombasa, Kenya</p>
+          <p className="text-gray-600 text-xs">© 2026 ArphaxTech. All rights reserved.</p>
+          <p className="text-gray-600 text-xs">Built with care in Kilifi, Kenya</p>
         </div>
       </div>
     </footer>
