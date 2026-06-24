@@ -8,7 +8,7 @@ export function AuthProvider({ children }) {
   })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const API = 'http://localhost:8000/api'
+  const API = 'https://arphaxtech.onrender.com'
 
   const login = async (username, password) => {
     setLoading(true); setError('')
